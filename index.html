@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#6e2862">
+    <meta name="description" content="A private STI and HIV risk self-assessment with practical next steps.">
+    <title>STI Self-Assessment</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./icon-192.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to app content</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="STI Self-Assessment home">
+        <span class="brand-mark" aria-hidden="true">✓</span>
+        <span>STI Self-Assessment</span>
+      </a>
+    </header>
+    <main id="app" class="app-shell" tabindex="-1" aria-live="polite">
+      <noscript>
+        <p class="noscript-message">JavaScript is required to use this self-assessment.</p>
+      </noscript>
+    </main>
+    <footer class="site-footer">
+      <p>Confidential self-assessment · Not a medical diagnosis</p>
+      <p id="offline-status" role="status" aria-live="polite">Offline access is available after the app has loaded once.</p>
+    </footer>
+  </body>
+</html>
